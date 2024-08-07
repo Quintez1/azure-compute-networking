@@ -120,5 +120,6 @@ Close all Remote Desktop connections.
 Navigate to "Resource groups" in the Azure Portal.
 Select the Resource Group created for this lab and click "Delete Resource Group".
 Confirm the deletion and ensure all resources are removed.
+<img src="https://i.imgur.com/tAMhERm.png" alt="Lab Cleanup"/>
 </p>
 <br />
