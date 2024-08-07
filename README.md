@@ -41,7 +41,7 @@ Choose a size that fits your requirements (e.g., Standard D2s_v3).
 Set up the Administrator account with a username and password.
 In the "Networking" tab, ensure a new Virtual Network (Vnet) is created.
 Click "Review + create" and then "Create".
-<img src="https://i.imgur.com/1J7HB2E.png" alt="Create Windows 10 Virtual Machine"/>
+<img src="https://i.imgur.com/GsM6UrL.png" alt="Create Windows 10 Virtual Machine"/>
 <img src="https://i.imgur.com/dlGAp9K.png" alt="Create Windows 10 Virtual Machine"/>
 
 - Create a Linux (Ubuntu) VM:
@@ -54,7 +54,7 @@ Select a VM size (e.g., Standard B1ms).
 Set up the authentication type (e.g., SSH public key) and provide the necessary details.
 Ensure it uses the same Virtual Network (Vnet) created earlier.
 Click "Review + create" and then "Create".
-<img src="" alt="Create a Linux (Ubuntu) VM"/>
+<img src="https://i.imgur.com/1J7HB2E.png" alt="Create a Linux (Ubuntu) VM"/>
 
 - Observe Your Virtual Network:
 
