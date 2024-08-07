@@ -71,6 +71,7 @@ Log in using the Administrator account credentials you set up.
 Open a web browser in the Windows 10 VM.
 Download and install Wireshark from Wireshark’s official website.
 Open Wireshark and set the filter to ICMP to capture ICMP traffic only.
+<img src="https://i.imgur.com/Bfk58cF.png" alt="Wireshark Install"/>
 
 - Ping Ubuntu VM from Windows 10 VM:
 
