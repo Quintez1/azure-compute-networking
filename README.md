@@ -3,7 +3,7 @@
 </p>
 
 <h1>Lab - Azure Compute and Networking</h1>
-This lab focuses on creating and managing Azure virtual machines (VMs) and understanding network traffic using tools like Wireshark. You'll create both Windows and Linux VMs, observe different types of network traffic (ICMP, SSH, DHCP, DNS, and RDP), and understand how network security groups (NSGs) can affect this traffic. This lab will help you build fundamental skills in Azure compute and networking, and how to analyze and secure network traffic.<br />
+This lab focuses on creating and managing Azure virtual machines (VMs) and understanding network traffic using tools like Wireshark. You'll create both Windows and Linux VMs, observe different types of network traffic (ICMP, SSH, DHCP, DNS, and RDP), and understand how network security groups (NSGs) can affect this traffic. This lab will help you build fundamental skills in Azure computing and networking, and how to analyze and secure network traffic.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -29,7 +29,6 @@ Click "Add".
 Enter a name for the Resource Group (e.g., Lab2ResourceGroup).
 Select a region close to you or based on your needs.
 Click "Review + create" and then "Create".
-
 <img src="https://i.imgur.com/x7ihWC0.png" alt="Create Resource Group"/>
 
 - Create a Windows 10 Virtual Machine (VM):
@@ -42,6 +41,8 @@ Choose a size that fits your requirements (e.g., Standard D2s_v3).
 Set up the Administrator account with a username and password.
 In the "Networking" tab, ensure a new Virtual Network (Vnet) is created.
 Click "Review + create" and then "Create".
+<img src="https://i.imgur.com/1J7HB2E.png" alt="Create Windows 10 Virtual Machine"/>
+
 
 - Create a Linux (Ubuntu) VM:
 
