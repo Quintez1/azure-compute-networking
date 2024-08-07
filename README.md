@@ -5,6 +5,7 @@
 <h1>Lab - Azure Compute and Networking</h1>
 
 - Simple Steps and Description:
+  
 We're going to set up some virtual computers (VMs) in the cloud using Azure. We'll create a Windows computer and a Linux computer, and then we'll use a tool called Wireshark to see how data moves between them.
 
 - Create a Resource Group: Think of this as a folder where we'll keep our cloud computers.
