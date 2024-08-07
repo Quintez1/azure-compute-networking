@@ -78,6 +78,8 @@ Open Wireshark and set the filter to ICMP to capture ICMP traffic only.
 Retrieve the private IP address of the Ubuntu VM from the Azure Portal.
 Open Command Prompt in the Windows 10 VM.
 Run the command ping <UbuntuVM-private-IP> and observe the traffic in Wireshark.
+<img src="https://i.imgur.com/GYdvMOX.png" alt="Ping Ubuntu VM from Windows 10 VM"/>
+<img src="https://i.imgur.com/NUoS3nQ.png" alt="Run Ping Command"/>
 
 - Disable/Enable ICMP Traffic:
 
@@ -92,6 +94,8 @@ In Wireshark, change the filter to ssh.
 Use an SSH client (e.g., PuTTY) on the Windows 10 VM to connect to the Ubuntu VM using its private IP address.
 Log in and execute some commands in the SSH session.
 Observe the SSH traffic in Wireshark.
+<img src="https://i.imgur.com/nRvRTMP.png" alt="SSH Traffic"/>
+
 
 - Part 4: Observe DHCP Traffic
 Filter for DHCP traffic in Wireshark:
@@ -118,13 +122,3 @@ Select the Resource Group created for this lab and click "Delete Resource Group"
 Confirm the deletion and ensure all resources are removed.
 </p>
 <br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-
