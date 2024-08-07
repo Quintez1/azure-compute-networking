@@ -8,11 +8,11 @@ This lab focuses on creating and managing Azure virtual machines (VMs) and under
 <h2>Environments and Technologies Used</h2>
 
 - Azure Portal
--Windows 10 VM
--Ubuntu Linux VM
--Wireshark
--Network Security Groups (NSGs)
--Remote Desktop Protocol (RDP)
+- Windows 10 VM
+- Ubuntu Linux VM
+- Wireshark
+- Network Security Groups (NSGs)
+- Remote Desktop Protocol (RDP)
 
 <h2>Operating Systems Used </h2>
 
