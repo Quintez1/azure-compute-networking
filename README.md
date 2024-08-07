@@ -33,7 +33,7 @@ Click "Review + create" and then "Create".
 
 - Create a Windows 10 Virtual Machine (VM):
 
-In the Azure Portal, select "Virtual machines" from the left-hand menu and click "Add".
+Select "Virtual machines" from the left-hand menu in the Azure Portal and click "Add".
 Choose the Resource Group you created earlier.
 Enter a name for the VM (e.g., Windows10VM).
 Select "Windows 10 Pro" as the image.
@@ -46,7 +46,7 @@ Click "Review + create" and then "Create".
 
 - Create a Linux (Ubuntu) VM:
 
-In the Azure Portal, go to "Virtual machines" and click "Add".
+Go to "Virtual machines" in the Azure Portal and click "Add".
 Select the same Resource Group created previously.
 Enter a name for the VM (e.g., UbuntuVM).
 Choose "Ubuntu Server 20.04 LTS" as the image.
@@ -56,26 +56,21 @@ Ensure it uses the same Virtual Network (Vnet) created earlier.
 Click "Review + create" and then "Create".
 <img src="https://i.imgur.com/1J7HB2E.png" alt="Create a Linux (Ubuntu) VM"/>
 
-- Observe Your Virtual Network:
-
-Use Azure Network Watcher to check the network topology.
-Navigate to "Network Watcher" in the Azure Portal.
-Select "Topology" under the "Network diagnostic tools".
-Choose the Resource Group and Vnet to visualize the network.
-
-- Part 2: Observe ICMP Traffic
+- Part 2: Remote Desktop
 
 - Connect to the Windows 10 VM using Remote Desktop:
 
 Open Remote Desktop Connection on your local machine.
 Enter the public IP address of the Windows 10 VM.
 Log in using the Administrator account credentials you set up.
+<img src="https://i.imgur.com/WvycDdu.png" alt="Connect to Remote Desktop"/>
+<img src="https://i.imgur.com/Bfk58cF.png" alt="Login (Remote Desktop"/>
 
 - Install Wireshark:
 
 Open a web browser in the Windows 10 VM.
 Download and install Wireshark from Wireshark’s official website.
-Open Wireshark and set the filter to icmp to capture ICMP traffic only.
+Open Wireshark and set the filter to ICMP to capture ICMP traffic only.
 
 - Ping Ubuntu VM from Windows 10 VM:
 
@@ -99,13 +94,13 @@ Observe the SSH traffic in Wireshark.
 
 - Part 4: Observe DHCP Traffic
 Filter for DHCP traffic in Wireshark:
-In Wireshark, change the filter to dhcp.
+In Wireshark, change the filter to DHCP.
 Open Command Prompt in the Windows 10 VM and run ipconfig /renew to request a new IP address.
 Observe the DHCP traffic in Wireshark.
 
 - Part 5: Observe DNS Traffic
 Filter for DNS traffic in Wireshark:
-In Wireshark, change the filter to dns.
+In Wireshark, change the filter to DNS.
 Open Command Prompt in the Windows 10 VM and use nslookup to find the IP addresses of google.com and disney.com.
 Observe the DNS traffic in Wireshark.
 
