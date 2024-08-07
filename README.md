@@ -1,5 +1,5 @@
 <p align="center">
-<img src="[https://i.imgur.com/Clzj7Xs.png](https://i.imgur.com/4hzgUaF.jpeg)" alt="Azure"/>
+<img src="https://i.imgur.com/4hzgUaF.jpeg" alt="Azure logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
