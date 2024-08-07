@@ -30,7 +30,7 @@ Enter a name for the Resource Group (e.g., Lab2ResourceGroup).
 Select a region close to you or based on your needs.
 Click "Review + create" and then "Create".
 
-<img src="https://imgur.com/x7ihWC0" height="80%" width="80%" alt="Create Resource Group"/>
+<img src="[https://imgur.com/x7ihWC0](https://imgur.com/x7ihWC0)" height="80%" width="80%" alt="Create Resource Group"/>
 
 - Create a Windows 10 Virtual Machine (VM):
 
