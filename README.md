@@ -2,31 +2,21 @@
 <img src="https://i.imgur.com/4hzgUaF.jpeg" alt="Azure logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
-
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+<h1>Lab - Azure Compute and Networking</h1>
+This lab focuses on creating and managing Azure virtual machines (VMs) and understanding network traffic using tools like Wireshark. You'll create both Windows and Linux VMs, observe different types of network traffic (ICMP, SSH, DHCP, DNS, and RDP), and understand how network security groups (NSGs) can affect this traffic. This lab will help you build fundamental skills in Azure compute and networking, and how to analyze and secure network traffic.<br />
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Azure Portal
+-Windows 10 VM
+-Ubuntu Linux VM
+-Wireshark
+-Network Security Groups (NSGs)
+-Remote Desktop Protocol (RDP)
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
-
-<h2>List of Prerequisites</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 
