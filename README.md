@@ -20,10 +20,6 @@ This lab focuses on creating and managing Azure virtual machines (VMs) and under
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Part 1: Create Resources
 - Create a Resource Group:
 
@@ -33,6 +29,10 @@ Click "Add".
 Enter a name for the Resource Group (e.g., Lab2ResourceGroup).
 Select a region close to you or based on your needs.
 Click "Review + create" and then "Create".
+
+<p
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Create Resource Group"/>
+<p/>
 
 - Create a Windows 10 Virtual Machine (VM):
 
