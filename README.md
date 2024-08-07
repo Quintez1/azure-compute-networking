@@ -7,7 +7,6 @@
 - Simple Steps and Description:
 We're going to set up some virtual computers (VMs) in the cloud using Azure. We'll create a Windows computer and a Linux computer, and then we'll use a tool called Wireshark to see how data moves between them.
 
-Simple Steps and Description:
 - Create a Resource Group: Think of this as a folder where we'll keep our cloud computers.
 - Create a Windows 10 VM: Make a virtual Windows computer.
 - Create a Linux (Ubuntu) VM: Make a virtual Linux computer.
