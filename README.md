@@ -30,7 +30,7 @@ This lab focuses on creating and managing Azure virtual machines (VMs) and under
 
 <h2>Installation Steps</h2>
 
-Part 1: Create Resources
+- Part 1: Create Resources
 - Create a Resource Group:
 
 Navigate to the Azure Portal.
